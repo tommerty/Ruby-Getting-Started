@@ -1,3 +1,4 @@
+```
 # snake case for variables
 # Uppercase first letter for constants
 # snake case for methods
@@ -57,3 +58,23 @@ h = {"key1" => "value1", "key2" => "value2", "key3" => "value3", 10 => 9.9}
 h["another_key"] = "another_value"
 
 word_count = {}
+
+# Blocks
+# function without a name
+# can be passed to other functions
+# can be defined inline
+# can be defined as a separate function
+# do annd end (or curly braces)
+
+# do |arguments|
+    # does a thing
+# end
+
+# Example:
+numbers = [41, 100, -1] # => [41, 100, -1]
+numbers.each {|x| puts(x + 1)}
+# 42
+# 101
+# 0
+# => [41, 100, -1]
+```
