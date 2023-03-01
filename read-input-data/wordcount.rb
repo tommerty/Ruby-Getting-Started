@@ -1,4 +1,4 @@
-TEXT_FILE = "romeo-juliet.txt"
+TEXT_FILE = "file.txt"
 
 # Loading the words
 def words_from_file(text_file)

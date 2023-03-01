@@ -29,5 +29,5 @@ end
 puts "Top 40 most frequent words that don't appear in #{REFERENCE_TEXT_FILE}:\n\n"
 WORD_COUNT.sort_by {|word, count| count}
 .reverse[0...40]
-.each {|word, count| puts "#{word}: #{count}"}
-puts "\nSUMMARY:\n\n#{TEXT_FILE} has #{words_from_file('file.txt').uniq.length} unique words that don't appear in #{REFERENCE_TEXT_FILE}"
+.each {|word, count| puts "#{word} appears #{count} times"}
+puts "\nSUMMARY\n\n#{TEXT_FILE} has #{words_from_file('file.txt').uniq.length} unique words that don't appear in #{REFERENCE_TEXT_FILE}"
